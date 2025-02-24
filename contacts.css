@@ -1,0 +1,114 @@
+.header {
+    background-color: cornflowerblue;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+  }
+  
+  .header h1 {
+    font-size: 50px;
+  }
+  
+  .navbar {
+    background-color: rgb(188, 229, 255);
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: darkblue;
+    padding: 30px;
+  }
+  
+  
+  .dropdown-button {
+    color: white;
+    border: 0;
+    background-color: rgb(188, 229, 255);
+  }
+  
+  .dropdown-button:hover {
+    background-color: rgb(43, 96, 195);
+    transition: 0.3s;
+    color: white;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:aliceblue;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 246px;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    padding: 12px;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    color: darkblue;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: cornflowerblue;
+    color: white;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    background: aliceblue;
+    display: block;
+    color: white;
+    position: absolute;
+  }
+  
+  .dropdown {
+    display: inline-block;
+  }
+  
+  .about-me {
+    padding: 10px;
+    background-color: azure;
+  
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+  }
+  
+  .item1 {
+    grid-area: myArea;
+  }
+  
+  .img {
+    height: 100px;
+    width: 100px;
+    margin: 30px;
+  }
+  
+  .footer {
+    background-color: rgb(25, 68, 147);
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  .btn {
+      background-color: rgb(188, 229, 255);
+      border: none;
+      text-align: center;
+      font-size: 16px;
+      transition: 0.3s;
+    }
+  
+    .btn:hover {
+      background-color: rgb(43, 96, 195);
+      color: white;
+    }
+  
